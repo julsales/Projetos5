@@ -114,8 +114,8 @@ streamlit run app.py
 
 ## 🔑 Principais Insights
 
-- � **Ônibus domina:** 43.8% das viagens ao trabalho
-- 🚶 **A pé em segundo lugar:** 30.2% das viagens dos filhos à escola
+- 🚌 **Ônibus domina:** 45.4% das viagens ao trabalho
+- 🚶 **A pé em segundo lugar:** 31.8% das viagens dos filhos à escola
 - 🔄 **~29% das viagens** utilizam mais de um modal (multimodal)
 - 🤝 **Combinação mais comum:** Ônibus + Metrô
 - ⚠️ **Integração formal baixa:** Apenas 15.2% usam terminais
