@@ -355,13 +355,6 @@ def show_descriptive_stats(df):
     # Top 10 Bairros
     st.markdown("### 4️⃣ Bairros (Top 10)")
     
-    st.markdown("""
-    <div class="insight-box">
-    <b>📌 Nota:</b> Esta é uma análise geral de todos os respondentes da Pesquisa Origem-Destino 2016 da RMR.
-    Os bairros estão ordenados do mais frequente (topo) ao menos frequente.
-    </div>
-    """, unsafe_allow_html=True)
-    
     top_bairros = df['bairro_residencia'].value_counts().head(10)
     top_bairros_pct = df['bairro_residencia'].value_counts(normalize=True).head(10) * 100
     bairros_df = pd.DataFrame({'Qtd': top_bairros, '%': top_bairros_pct.round(2)})
